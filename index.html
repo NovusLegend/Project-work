@@ -44,16 +44,17 @@
 <body class="bg-gray-50">
     <!-- Firebase Configuration -->
     <script>
-        const firebaseConfig = {
-            apiKey: "AIzaSyBNV5OwdprDPhB8mc9XzixJJfUl0jw4GJI",
-            authDomain: "blog-b9a62.firebaseapp.com",
-            projectId: "blog-b9a62",
-            storageBucket: "blog-b9a62.appspot.com",
-            messagingSenderId: "735392973459",
-            appId: "1:735392973459:web:64a810b3f9f9455efe4366",
-            measurementId: "G-DC8V348EWQ"
-        };
-        
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";
+  const firebaseConfig = {
+    apiKey: "AIzaSyB_Xa-AgdgEYWbOXQvXSku9Vb9pgWv8EEY",
+    authDomain: "blog-af357.firebaseapp.com",
+    projectId: "blog-af357",
+    storageBucket: "blog-af357.firebasestorage.app",
+    messagingSenderId: "742174134068",
+    appId: "1:742174134068:web:c5facec576b08de36f5f61",
+    measurementId: "G-TNSNP60G65"
+  };
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
         const auth = firebase.auth();
@@ -1014,5 +1015,3 @@
             }
         });
     </script>
-</body>
-</html>
