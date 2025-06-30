@@ -44,17 +44,15 @@
 <body class="bg-gray-50">
     <!-- Firebase Configuration -->
     <script>
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";
-  const firebaseConfig = {
-    apiKey: "AIzaSyB_Xa-AgdgEYWbOXQvXSku9Vb9pgWv8EEY",
-    authDomain: "blog-af357.firebaseapp.com",
-    projectId: "blog-af357",
-    storageBucket: "blog-af357.firebasestorage.app",
-    messagingSenderId: "742174134068",
-    appId: "1:742174134068:web:c5facec576b08de36f5f61",
-    measurementId: "G-TNSNP60G65"
-  };
+ const firebaseConfig = {
+  apiKey: "AIzaSyB_Xa-AgdgEYWbOXQvXSku9Vb9pgWv8EEY",
+  authDomain: "blog-af357.firebaseapp.com",
+  projectId: "blog-af357",
+  storageBucket: "blog-af357.firebasestorage.app",
+  messagingSenderId: "742174134068",
+  appId: "1:742174134068:web:c5facec576b08de36f5f61",
+  measurementId: "G-TNSNP60G65"
+};
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
         const auth = firebase.auth();
